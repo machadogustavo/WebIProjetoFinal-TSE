@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Descubra a Palavra - TSE Ensina</title>
+</head>
+<body>
+    
+    <main>
+        <!-- <img src="./tselogo-ico.svg" alt="">
+        <h1>TSE Ensina</h1>
+        <h2>Descubra a Palavra</h2> -->
+
+        <div class="howtoplay">
+            <h3>Como Jogar?</h3>
+            <p class="comand">Descubra a palavra certa em <span>8 tentativas.</span><br>Caso acerte a letra ela irar aparecer.<br> As palavras são sobre as eleições.<br><span>Boa sorte!</span></p>
+        </div>
+
+        <div class="content">
+            
+            <div class="inputs">
+        
+            </div>
+
+            <div class="details">
+                <p class="hint">Dica: <span></span></p>
+                <p class="guess-left">Chances Restantes: <span></span></p>
+                <p class="wrong-letter">Letras Erradas: <span></span></p>
+            </div>
+
+            
+
+            <div class="gameWin">
+                <h3>Parabéns</h3>
+                <p><span class="textWin">Você descobriu a palavra: <span class="letterWin"></span></span></p>
+            </div>
+
+            <div class="gameOver">
+                <h3>Game Over!</h3>
+                <p><span>Suas tentativas acabaram :(</span></p>
+            </div>
+            <input type="text" class="typing-input" maxlength="1" placeholder="Digite a letra aqui :)">
+            <button class="again-btn">Tentar Novamente</button>
+            <button class="reset-btn">Nova Palavra</button>
+            
+        </div>
+
+        
+    </main>
+
+    
+
+
+    <script src="word.js"></script>
+    <script src="script.js" type="module"></script>
+    
+
+</body>
+</html>
